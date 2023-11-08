@@ -7,6 +7,8 @@
     <script src="https://cdn.tailwitailwndcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@2.52.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <title>Tema 9</title>
 </head>
@@ -15,46 +17,97 @@
 <body>
 
 
-        <!-- first half -->
-        <div>
-            <div class="flex flex-row">
-                <!-- left -->
-                <div class="flex flex-col">
+    <!-- first half -->
+    <div>
+        <div class="flex justify-between my-8">
+            <!-- left -->
+            <div class="flex flex-col ml-10">
 
-                    <p>SOLUTION</p>
-                    <p>Digital solutions for business.</p>
-                    <p>Do you have more questions about our solution? Just send us a message for help</p>
-                    <p>More About solution > </p>
-                    <p>100+ trusted Partners</p>
+                <p class="text-pink-500 text-xs">SOLUTION</p>
+                <p class="text-5xl font-bold my-2">Digital solutions <br> for business.</p>
+                <p class="my-2">Do you have more questions about our solution? Just send us a message for help</p>
+                <p class="my-8 underline underline-offset-4 font-semibold">More About solution > </p>
+                <p class="mt-32 text-2xl font-bold"><span class="text-pink-500">100+</span> Trusted Partners</p>
 
-                </div>
-
-                <!-- right -->
-                <div class="flex flex-col">
-
-                    <div>Slider</div>
-                    <div>Google Facebook Insta Fundbox</div>
-
-                </div>
             </div>
 
-        </div>
+            <!-- right -->
+            <div class="flex flex-col mr-10 ml-10">
 
-
-
-        <!-- second half -->
-        <div class="justify-center bg-black p-4 ml-6 mr-6 my-10" style="border-radius: 2rem; height: 15rem;">
-            <div class="flex justify-between">
-                <!-- left -->
                 <div class="flex flex-col">
-                    <div class="">Have any Project?</div>
-                    <div class="">Don't hesitate to send us message.</div>
+                    <hr>
+                    <div class="flex flex-row items-center justify-between space-x-40">
+                        <p class="my-5 font-bold flex cursor-pointer">
+                            Google ads setup & management
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <hr>
+
+                    <div class="flex flex-row items-center justify-between space-x-40">
+                        <p class="my-5 font-bold flex items-center cursor-pointer">
+                            Web Design & Development
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <hr>
+
+                    <div class="flex flex-row items-center justify-between space-x-40">
+                        <p class="my-5 font-bold flex items-center cursor-pointer">
+                            Reputation management
+                        </p>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 mr-2" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7">
+                            </path>
+                        </svg>
+                    </div>
+
+                    <p class="mb-5">Our founders Dustin Moskovitz and Justin Rosenstein met while leading Engineering
+                        teams at Facebook.</p>
+
+                    <hr>
+
                 </div>
 
-                <!-- right -->
-                <button class="">Get Started today!</button>
+
+
+
+                <div class="mt-48 font-semibold"><span class="font-google">Google</span> . <span
+                        class="font-facebook">Facebook</span> . <span>Insta</span> . <span> Fundbox
+                    </span></div>
+
             </div>
         </div>
+
+    </div>
+
+
+
+    <!-- second half -->
+    <div class="justify-center bg-black p-4 ml-6 mr-6 my-10 mt-20" style="border-radius: 2rem; height: 15rem;">
+        <div class="flex justify-between items-center h-full">
+            <!-- left -->
+            <div class="flex flex-col ml-10">
+                <div class="text-pink-500 text-sm">Have any Project?</div>
+                <div class="font-semibold text-3xl">Don't hesitate to send us message.</div>
+            </div>
+
+            <!-- right -->
+            <button class="flex items-center justify-center mr-10 ms-5 bg-pink-500 h-16 w-48"
+                style="border-radius: 2rem;">Get Started today!</button>
+        </div>
+    </div>
 
 </body>
 
